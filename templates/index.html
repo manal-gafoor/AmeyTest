@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Print the most frequent numbers in a file</h1>
-    <form method="post" action="{{url_for('calculate')}}">
+    <form method="post" action="{{url_for('find_freq')}}" enctype="multipart/form-data">
         <label class="form-label" for="customFile">Please choose your text file with numbers:</label>
         <br>
         <input type="file" class="form-control" id="customFile" name="filename"/>
