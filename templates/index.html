@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amey's Test</title>
+    <link href="static/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Print the most frequent numbers in a file</h1>
+    <form method="post" action="{{url_for('calculate')}}">
+        <label class="form-label" for="customFile">Please choose your text file with numbers:</label>
+        <br>
+        <input type="file" class="form-control" id="customFile" name="filename"/>
+        <br>
+        <input type="submit" name="Submit">
+    </form>
+
+</body>
+</html>
